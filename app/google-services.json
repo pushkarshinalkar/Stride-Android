@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "863891413756",
+    "project_id": "stride-91b20",
+    "storage_bucket": "stride-91b20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863891413756:android:e6334094b926731af4d579",
+        "android_client_info": {
+          "package_name": "com.tutorial.courser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863891413756-vmnsthocji4hmrfu6sv8g122rppd09du.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7dnB5h3ot4XTPJ5XrTCe2BxRbsb_SRAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "863891413756-vmnsthocji4hmrfu6sv8g122rppd09du.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

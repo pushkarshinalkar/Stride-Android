@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    default colors-->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="FunbayNameCol">#ffffff</color>
+
+    <!--    main colors-->
+    <color name="main_background">#FFE7E7</color>
+    <color name="secondary_main_background">#E9E1FD</color>
+    <color name="full_black">#000000</color>
+    <color name="full_white">#FFFFFF</color>
+
+    <!--    text colors-->
+    <color name="read_black">#000000</color>
+    <color name="read_white">#E7E7E7</color>
+    <color name="hyper_text">#0600AD</color>
+    <color name="hint_color">#727272</color>
+    <color name="nonfocus_details_page_text">#B9B9B9</color>
+    <color name="preview_chat">#616161</color>
+    <color name="swipe_text_news">#838383</color>
+    <color name="time_preview_chat">#575757</color>
+    <color name="settings_blue">#0090FF</color>
+    <color name="settings_light_text">#888888</color>
+    <color name="settings_tertiary_tint_text">#8B10A5</color>
+    <color name="sidemenu_small_text">#090909</color>
+
+    <!--    card colors-->
+    <color name="percentage_snake">#876DC4</color>
+    <color name="percentage_circle">#E9E1FD</color>
+    <color name="chat_number_circle">#5FFF8F</color>
+    <color name="premium_lock_grey">#9E9E9E</color>
+    <color name="date_bubble_chat_card">#B0C8FF</color>
+    <color name="incoming_bubble_chat">#FFFFFF</color>
+    <color name="outgoing_bubble_chat">#D2DFFF</color>
+    <color name="basic_gold">#FFFF00</color>
+    <color name="discussion_group_toolbar">#D6C4FF</color>
+
+    <!--    line colors-->
+    <color name="toolbar_bottom_line">#9F9F9F</color>
+    <color name="startdate_line">#00B845</color>
+    <color name="enddate_line">#FE0053</color>
+    <color name="sidemenu_line_teal">#9BCDCE</color>
+
+    <!--    icon & button colors-->
+    <color name="main_icon_tint">#000000</color>
+    <color name="fav_icon">#FF0000</color>
+    <color name="send_icon">#00A1A6</color>
+    <color name="signin_login_next_button">#5450D6</color>
+    <color name="apply_discu_button">#D6C4FF</color>
+
+    <color name="bottomNavCol">#2F7FFF</color>
+    <color name="bottomNavChipCol">#FFB217</color>
+    <color name="bottomNavIconCol">#000000</color>
+    <color name="bottomNavTextCol">#000000</color>
+
+
+
+
+
+
+
+
+
+</resources>

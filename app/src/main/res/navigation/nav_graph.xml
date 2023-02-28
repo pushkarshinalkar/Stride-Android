@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/coursesFrag">
+
+    <fragment
+        android:id="@+id/coursesFrag"
+        android:name="com.tutorial.courser.ui.fragments.CoursesFrag"
+        android:label="fragment_courses"
+        tools:layout="@layout/fragment_courses" >
+        <action
+            android:id="@+id/action_coursesFrag_to_favFrag"
+            app:destination="@id/favFrag" />
+        <action
+            android:id="@+id/action_coursesFrag_to_historyFrag"
+            app:destination="@id/historyFrag" />
+        <action
+            android:id="@+id/action_coursesFrag_to_profileFrag"
+            app:destination="@id/profileFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/favFrag"
+        android:name="com.tutorial.courser.ui.fragments.FavFrag"
+        android:label="fragment_fav"
+        tools:layout="@layout/fragment_fav" >
+        <action
+            android:id="@+id/action_favFrag_to_coursesFrag"
+            app:destination="@id/coursesFrag" />
+        <action
+            android:id="@+id/action_favFrag_to_historyFrag"
+            app:destination="@id/historyFrag" />
+        <action
+            android:id="@+id/action_favFrag_to_profileFrag"
+            app:destination="@id/profileFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyFrag"
+        android:name="com.tutorial.courser.ui.fragments.HistoryFrag"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" >
+        <action
+            android:id="@+id/action_historyFrag_to_coursesFrag"
+            app:destination="@id/coursesFrag" />
+        <action
+            android:id="@+id/action_historyFrag_to_favFrag"
+            app:destination="@id/favFrag" />
+        <action
+            android:id="@+id/action_historyFrag_to_profileFrag"
+            app:destination="@id/profileFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFrag"
+        android:name="com.tutorial.courser.ui.fragments.ProfileFrag"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFrag_to_coursesFrag"
+            app:destination="@id/coursesFrag" />
+        <action
+            android:id="@+id/action_profileFrag_to_favFrag"
+            app:destination="@id/favFrag" />
+        <action
+            android:id="@+id/action_profileFrag_to_historyFrag"
+            app:destination="@id/historyFrag" />
+    </fragment>
+</navigation>

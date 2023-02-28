@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.VideoPlayerActivity">
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rockb"
+        android:gravity="center|start"
+        android:text="[Intro music plays]  Voiceover: &quot;Welcome to this Java programming language introduction video.&quot;  [On-screen text appears: Java Programming Language]  Voiceover: &quot;Java is a high-level, object-oriented programming language. It was developed by James Gosling and his team at Sun Microsystems in the early 1990s. Java was designed to be simple, portable, and secure, and has since become one of the most widely used programming languages in the world.&quot;  [On-screen text appears: Simple, Portable, Secure]  Voiceover: &quot;Java's simplicity comes from its ease of use and readability. It has a clean syntax and a well-defined set of rules that make it easy to learn and use. Java is also portable, which means that code written on one platform can run on any other platform without modification. This makes Java ideal for developing software that can run on a variety of devices, from desktop computers to mobile phones.&quot;  [On-screen text appears: Desktop Computers, Mobile Phones]  Voiceover: &quot;Java's security features are also an important aspect of its design. The language was designed with security in mind, and includes features like automatic memory management and a strong type system, which helps prevent common programming errors and vulnerabilities.&quot;  [On-screen text appears: Security Features, Automatic Memory Management, Strong Type System]  Voiceover: &quot;Java is used in a wide variety of applications, from building large enterprise applications to developing mobile apps and games. Java is also used in the development of server-side applications, web applications, and in the Internet of Things (IoT) space.&quot;  [On-screen text appears: Enterprise Applications, Mobile Apps and Games, Server-side Applications, Web Applications, Internet of Things (IoT)]  Voiceover: &quot;In summary, Java is a versatile and popular programming language that has found widespread use in a variety of applications. Its simplicity, portability, and security features make it an ideal choice for developers looking to build robust and reliable software.&quot;  [On-screen text appears: Versatile and Popular Programming Language, Robust and Reliable Software]  Voiceover: &quot;Thank you for watching this Java programming language introduction video. We hope you found it informative and useful. For more information on Java and other programming languages, please visit our website.&quot;  [Outro music plays]  [On-screen text appears: Thank you for watching]"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/player_view"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:background="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:resize_mode="zoom"
+        app:show_buffering="when_playing">
+
+        <ImageView
+            android:id="@+id/fullscreenid"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#DA3636"
+            app:tint="#FFFFFF"
+            app:srcCompat="@drawable/ic_fullscreen" />
+    </com.google.android.exoplayer2.ui.PlayerView>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Transcript"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/player_view" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

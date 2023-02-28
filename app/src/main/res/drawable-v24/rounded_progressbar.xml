@@ -1,0 +1,13 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@android:id/progress">
+        <clip android:clipOrientation="horizontal"
+            android:gravity="center">
+            <shape android:shape="ring"
+                android:innerRadiusRatio="3.5"
+                android:thickness="12dp">
+                <solid android:color="#0000ff" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>
